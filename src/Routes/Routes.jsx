@@ -16,6 +16,7 @@ export const router = createBrowserRouter([
         path: '/books',
         element: <Books />
       }
-    ]
+    ],
+    errorElement: <div><h1>Page Not Found</h1></div>
   }
 ])
